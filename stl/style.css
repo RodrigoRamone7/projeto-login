@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root{
+    /*Color pallete*/
+    --corp:#4D91D1;
+    --cor0:#8DE3DF;
+    --cor1:#4BEBE3;
+    --cor2:#47DED7;
+    --cor3:#4AC5E8;
+    --cor4:#4A72E8;
+    --cor5:#4947DE;
+    --cor6:#2C2B9E;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+
+}

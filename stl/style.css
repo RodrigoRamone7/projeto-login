@@ -75,11 +75,17 @@ div.input{
     border-radius: 5px;
 }
 
-input.inptxt{
-    text-align: justify;
-    border: none;
-    width: 90%;
-    height: 30px;
+div.inptxt{
+    text-decoration: none;
+    position: sticky;
+    top: -13px;
+    left: 55px;
+
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+
+    height: 33px;
 }
 
 span.material-icons{}

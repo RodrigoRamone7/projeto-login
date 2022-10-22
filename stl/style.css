@@ -15,6 +15,80 @@
 *{
     padding: 0px;
     margin: 0px;
+}
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor6);
+}
 
+main{
+    background-color: white;
+
+    margin: auto;
+    width: 80vw;
+    max-width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+}
+div#img{
+    background-image: url(../imgs/img-login-p.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 200px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+div#form > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+div#form > p{
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+div.input{
+    color: white;
+
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 3px;
+
+    width: 90%;
+    height: 30px;
+
+    background-color: var(--cor6);
+
+    border-radius: 5px;
+}
+
+input.inptxt{
+    text-align: justify;
+    border: none;
+    width: 90%;
+    height: 30px;
+}
+
+span.material-icons{}
+
+input.buttom{
+    background-color: #ffffff00;
+
+    width: 100%;
+    height: 100%;
+
+    border-style: none;
 }

@@ -69,6 +69,7 @@ section#login > div#form{
 div#form > h1{
     text-align: center;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 div#form > p{
